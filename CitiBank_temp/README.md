@@ -32,51 +32,14 @@ I setup a state diagram with three main segments of the LMS process. The process
 ---
 ## Task 2 Machine Learning Feature Proposal
 Credit risk prediction is a critical, yet process-heavy task that is *currently* being performed manually. How can a machine learning system be properly leveraged to enhance efficiency and reduce human error?
-### Deliverables
-- Plausibility of a credit risk modeling step that assesses the risk of a given loan.
-- Write-up of how machine learning systems are currently used for similar applications.
-- Brief feature proposal.
-
-
-How system might work
-Potential challenges & limitations
-
-- How risk moderling sys work
-- Data model will need - input vars to be used to predict credit risk
-- What the model will output. What will output vars look like.
-- Explore possible model types & architectures to be used
-- after collecting ideas, write up brief proposal
-
-## Feature Proposal
 ### Goal
-To help create strategies that maximize return (interest) and minimize risk (defaults)
+To help create strategies that maximize the company's return through interest, while minimizing risk of the loan being defaulted causing the company to lose in profit.
+### Challenges
+This being my first exposure into machine learning systems, I did a lot of reading around different algorithms. K-nearest neighbors, logistic regressions, decision trees. I also learned of a lot more that I didn't fully dive into.
+\
+I haven't built any of these algorithms before. Given some time experimenting with different types of algorithms would help me in knowing the why behind choosing one algorithm over another.
+\
+My proposal ended up being accurate to the expected solution in some ways. Areas I didn't write much into were scenarios of data drifting, retraining and keeping data adaptable.
 
-Defaults and prepayments = a risk in loss of interest revenue to the lender
-
-Key indicators (factors) in risk models
-- Profitability ratios
-Repayment capacity
-Solvency
-Duration of credit report
-Guarantees
-Company size
-Loan number
-Ownership Structure
-Corporate Banking relationship (duration)
-
-Modeling
-
-### How risk moderling sys work
-A Credit Risk Modeling System works by estimating the probability that a risk, i.e. a loss in revenue to the lender, will occur. The system allows a company to lower risk by adjusting factors they can control, or hedging losses for factors they can't control.
-
-Popular predictive models include: logistic regression, decision trees, neural networks, Naive Bayes classifier.
-
-### Data model will need - input vars to be used to predict credit risk
-Data needed: Historical data on actual loans to 'fit' the risk model. The fitted model provides estimated probabilities at different values of the factors
-### What the model will output. What will output vars look like.
-### Explore possible model types & architectures to be used
-K-Nearest Neighbors
-Logistic Regression
-Decision Trees
-Neural Networks
-### after collecting ideas, write up brief proposal
+---
+## Task 3 Build Stock Market Monitoring tool in Java
